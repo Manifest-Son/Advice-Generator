@@ -1,0 +1,26 @@
+.advice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  height: 100vh;
+  place-content: center;
+  background-image: url(./src/assets/advice-bg.jpg);
+}
+.header__title {
+  color: wheat;
+  font-size: 4rem;
+}
+.advice-btn {
+  color: azure;
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+  background-color: #76492c;
+  cursor: pointer;
+}
+.advice-txt {
+  font-size: 3rem;
+  background-color: rgba(224, 224, 189, 0.904);
+}
