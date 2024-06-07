@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import DotLoader from "react-spinners/DotLoader";
+// import DotLoader from "react-spinners/DotLoader";
 import "./Advice.css";
 
 const Advice = () => {
@@ -34,7 +34,8 @@ const Advice = () => {
       </button>
 
       {loading ? (
-        <DotLoader color="#36d7b7" />
+        // <DotLoader color="#36d7b7" />
+      <h2>Loading.....</h2>
       ) : (
         <h1 className="advice-txt">{advice}</h1>
       )}
